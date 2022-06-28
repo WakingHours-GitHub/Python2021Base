@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Python2021Base.iml" filepath="$PROJECT_DIR$/.idea/Python2021Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonCrawler/.idea/pythonCrawler.iml" filepath="$PROJECT_DIR$/../pythonCrawler/.idea/pythonCrawler.iml" />
+    </modules>
+  </component>
+</project>
