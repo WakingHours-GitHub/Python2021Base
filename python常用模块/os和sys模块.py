@@ -57,7 +57,7 @@ sys.getfilesystemencoding() # 获取内存数据存到文件时的默认编码
 
 """
 import os
-os.replace()
+# os.replace() # 重命名
 
 
 print(__file__) # 打印当前文件路径
