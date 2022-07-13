@@ -33,8 +33,26 @@ while循环嵌套:
 in python, loop can use whit else
 在python中, 循环可以和else配合使用.
 else中缩进的代码, 是指只有当循环正常结束后所要执行的代码.
+语法: 与循环语句统一缩进,
+    while 条件表达式:
+        code..
+    else:
+        循环正常结束之后要执行的代码.
 
 
+
+for...else
+    for 元素 in 可迭代对象:
+        code..
+    else:
+        循环正常结束之后的代码
+
+
+总结:
+    while和for都可以配合else使用
+    else缩进的代码块表示, 当循环正常结束后执行的代码.
+    break: break跳出循环, 导致循环不正常结束, 因此else不执行
+    continue: 直接开启下一次循环, 循环正常结束, 因此else执行
 
 """
 
@@ -165,6 +183,9 @@ for i in str1:  #
 # 循环配合else使用
 # else缩进的代码, 表示循环正常执行后所要执行的代码
 # 适用于对while循环进行是否正常执行的判断.
+
+# 不同退出循环的方式
+#
 i = 1
 while i < 5:
     print("离谱")
@@ -173,3 +194,86 @@ while i < 5:
     i += 1
 else:
     print("while_else")
+# 离谱
+# 离谱
+# 离谱
+# 也就是不打印else中的内容,
+# 因为break跳出了循环, 导致循环不是正常结束,
+# 因此else中的语句不执行了.
+#
+
+# continue:
+i = 0
+while i <= 5:
+    if i == 3:
+        i+=1
+        print("continue")
+        continue
+
+    print("离谱")
+    i += 1
+else:
+    print("while_else部分")
+
+# 可见: else语句被执行了.
+# 因此, continue只是跳过了本次循环, 循环仍然是正常结束的
+# 因此continue执行后, 会执行else缩进的代码
+print("=="*20)
+
+
+# for...else:
+str1 = "itheima"
+for i in str1:
+    print(i)
+else:
+    print("for_else, 循环正常结束之后, ")
+
+
+# for退出循环的方式: break, continue
+str1 = "itheima"
+for i in str1:
+    if i == 'e':
+        print("遇到e, 不打印了, break跳出循环")
+        break
+    print(i)
+else:
+    print("for_else部分, 使用break跳出循环")
+
+# i
+# t
+# h
+# 遇到e, 不打印了, break跳出循环
+# 显然没有打印else部分的代码,
+# 所以在for中, break, 仍然跳出循环啊, 不正常结束循环, 因此
+
+
+str1 = "itheima"
+for i in str1:
+    if i == 'e':
+        print("遇到e, 跳过, continue")
+        continue
+    print(i)
+else:
+    print("for_else部分, continue结束方式")
+# i
+# t
+# h
+# 遇到e, 跳过, continue
+# i
+# m
+# a
+# for_else部分, continue结束方式
+# 显然, 执行了else部分, continue不会导致不正常退出, 因此else执行
+
+
+
+
+
+
+
+
+
+
+
+
+
