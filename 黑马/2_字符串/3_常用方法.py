@@ -198,9 +198,15 @@ print(test_str.center(20)) #         test
 # startwith(字串, 开始位置下标, 结束位置下标):
 test_str = "this is a python test"
 print(test_str.startswith("this")) # True
+print(test_str.startswith("lipu")) # False # 可见不是由lipu开头的.
+# 特定范围:
+print(test_str.startswith('is', 5, 9)) # 是由is开头的.
 
 
 
+# endswith()
+print(test_str.endswith("test")) # True
 
-
-
+# isalpha(): 必须全部由其母组成
+print("zhefasdfa".isalpha()) #  True
+print("this is not all alpha".isalpha()) # False, 这里就不全是字母了, 有空格字符
