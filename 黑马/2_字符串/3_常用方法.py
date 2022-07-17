@@ -208,5 +208,58 @@ print(test_str.startswith('is', 5, 9)) # 是由is开头的.
 print(test_str.endswith("test")) # True
 
 # isalpha(): 必须全部由其母组成
+print("".isalpha()) # # False.  空字符串也不行
 print("zhefasdfa".isalpha()) #  True
 print("this is not all alpha".isalpha()) # False, 这里就不全是字母了, 有空格字符
+
+
+# isdigit(): 如果字符串只包含数字字符, 则返回True, 否则返回False
+print("123456".isdigit()) # True
+print("123d".isdigit()) #  False # 就不全是字数字字符
+
+
+# isalnum(): 不为空, 并且仅由数字, 字母组成.
+print("123456abc".isalnum()) # True
+print("123 abc".isalnum()) # False 有空格字符
+
+
+# isspace(): 只包含空白, \r,\n,\t,空格符
+print("".isspace()) # False
+print("\r\t\n   ".isspace()) # True
+print("      ".isspace()) #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
