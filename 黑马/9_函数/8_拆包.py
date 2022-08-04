@@ -7,12 +7,20 @@
 
 拆包分: 元组 和 字典
 
+交换变量的值:
+    交换变量的值有多种方法:
+    方法1: 结束第三个变量存储数据.
+    方法2: 异或
+    方法3: python的语法糖: a,b = b,a 这是同时进行的.
 
 
 
 """
 
 # 拆包元组数据
+import gc
+
+
 def return_num():
     return 100, 100
 
@@ -40,8 +48,31 @@ print(dict1[b]) # 18
 def test_kwargs(**kwargs):
     print(kwargs)
 
+# 字典作为可变关键字参数传入函数:
 test_kwargs(**dict1) # {'name': 'tom', 'age': 18}
 # **就表示手动拆包, 为kay=value的形式, 然后传给**kwargs, 也就是可变关键字参数
+
+
+# 交换变量
+a = 10
+b = 20
+
+# 方法1:
+c = a
+a = b
+b = c
+print(a, b) # 20 10 # 可见, 数据已经转化了.
+
+del c
+
+gc.collect()
+
+
+a, b = 10, 20 # 个数需要相同
+a, b = b, a # py特有的交换便令的方式
+print(a, b) # 20 10 #
+
+
 
 
 
