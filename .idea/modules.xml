@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python2021Base.iml" filepath="$PROJECT_DIR$/.idea/Python2021Base.iml" />
       <module fileurl="file://$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" filepath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonCrawler/.idea/pythonCrawler.iml" filepath="$PROJECT_DIR$/../pythonCrawler/.idea/pythonCrawler.iml" />
     </modules>
   </component>
 </project>
