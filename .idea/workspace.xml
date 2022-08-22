@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5015a9c-2db5-48e9-a7c3-ed14ac77eab3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/14_面向对象/7_继承.py" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/14_面向对象/7_继承_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
       <recent name="D:\PyCharm\PythonScrapy\4_爬虫类写法\picture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.7_继承">
+  <component name="RunManager" selected="Python.7_继承_1 (1)">
     <configuration name="2_re正则表达式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonScrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6_搬家具案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7_继承_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +85,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/6_搬家具案例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/7_继承_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7_继承" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7_继承_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +107,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/7_继承.py" />
+      <option name="SCRIPT_NAME" value="D:\PyCharm\Python2021Base\黑马\14_面向对象\7_继承_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.7_继承" />
+        <item itemvalue="Python.7_继承_1 (1)" />
+        <item itemvalue="Python.7_继承_1" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.get_fuel" />
         <item itemvalue="Python.2_re正则表达式" />
-        <item itemvalue="Python.6_搬家具案例" />
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +194,29 @@
       <workItem from="1660648238462" duration="12188000" />
       <workItem from="1661045411355" duration="12385000" />
       <workItem from="1661132178614" duration="407000" />
-      <workItem from="1661148663518" duration="470000" />
+      <workItem from="1661148663518" duration="7794000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,6 +253,7 @@
     <SUITE FILE_PATH="coverage/Python2021Base$2_.coverage" NAME="2_对象属性 Coverage Results" MODIFIED="1660309281165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$2_re.coverage" NAME="2_re正则表达式 Coverage Results" MODIFIED="1660661307108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/2_数据提取" />
     <SUITE FILE_PATH="coverage/Python2021Base$1_.coverage" NAME="1_简介 Coverage Results" MODIFIED="1660047242955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/13_文件" />
+    <SUITE FILE_PATH="coverage/Python2021Base$7__1__1_.coverage" NAME="7_继承_1 (1) Coverage Results" MODIFIED="1661157726920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$start.coverage" NAME="start Coverage Results" MODIFIED="1660052640938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/picture/picture" />
     <SUITE FILE_PATH="coverage/Python2021Base$14.coverage" NAME="14面向对象 Coverage Results" MODIFIED="1660307839196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马" />
     <SUITE FILE_PATH="coverage/Python2021Base$get_fuel.coverage" NAME="get_fuel Coverage Results" MODIFIED="1661082136161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
@@ -245,7 +264,7 @@
     <SUITE FILE_PATH="coverage/Python2021Base$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1660227209177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/login" />
     <SUITE FILE_PATH="coverage/Python2021Base$zol.coverage" NAME="zol Coverage Results" MODIFIED="1660052703611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/picture/picture/spiders" />
     <SUITE FILE_PATH="coverage/Python2021Base$test.coverage" NAME="test Coverage Results" MODIFIED="1660386204143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/NUC/Desktop" />
-    <SUITE FILE_PATH="coverage/Python2021Base$7_.coverage" NAME="7_继承 Coverage Results" MODIFIED="1661149014499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
+    <SUITE FILE_PATH="coverage/Python2021Base$7_.coverage" NAME="7_继承 Coverage Results" MODIFIED="1661153534645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1660225922620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/login/login/spiders" />
     <SUITE FILE_PATH="coverage/Python2021Base$5_.coverage" NAME="5_文件和文件夹的操作 Coverage Results" MODIFIED="1660219531672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/13_文件" />
     <SUITE FILE_PATH="coverage/Python2021Base$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1660104752522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/picture" />
