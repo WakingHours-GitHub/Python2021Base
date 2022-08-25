@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5015a9c-2db5-48e9-a7c3-ed14ac77eab3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/.idea/ComputerVision.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVision/.idea/ComputerVision.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/Dome01/HandTracking.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/Dome01/dome01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/Dome01/dome01copy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/Dome02/HandTrackingModule.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/Dome02/VolumeHandControl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/inChainCourse/图像操作/1_图像的基本操作.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ComputerVision/inChainCourse/图像操作/910709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作/2_imread.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作/2_imread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/黑马/14_面向对象/8_继承_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/14_面向对象/8_继承_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/14_面向对象/10_四有权限.py" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/14_面向对象/10_私有权限.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonScrapy/项目/微博1.0/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/项目/微博1.0/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/get_fuel.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/get_fuel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +39,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ComputerVision" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2022.1/python_stubs/-261144484/cv2/VideoCapture.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharm2022.1/python_stubs/-261144484/cv2/__init__.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../PATH/Python39/Lib/site-packages/cv2/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/../../PATH/Python39/Lib/site-packages/fake_useragent/utils.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../PATH/Python39/Lib/smtplib.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsbtTreeLayoutManager">
@@ -72,7 +72,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/PyCharm/ComputerVision/OpenCV实战/基础操作&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -80,15 +80,15 @@
       <recent name="D:\PyCharm\ComputerVision\OpenCV实战\基础操作" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharm\ComputerVision\OpenCV实战\基础操作" />
       <recent name="D:\PyCharm\pythonCrawler\其他\油价2.0" />
       <recent name="D:\PyCharm\Python2021Base\黑马\14_面向对象" />
       <recent name="D:\PyCharm\PythonScrapy\4_爬虫类写法\login" />
       <recent name="D:\PyCharm\PythonScrapy\4_爬虫类写法\picture\picture" />
-      <recent name="D:\PyCharm\PythonScrapy\4_爬虫类写法\picture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.2_imread">
-    <configuration name="10_四有权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10_私有权限">
+    <configuration name="10_私有权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,29 +101,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/10_四有权限.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_窗口相关API (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ComputerVision" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作/1_窗口相关API.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/10_私有权限.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,20 +132,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9_继承_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python2021Base" />
+    <configuration name="3_capvideo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/黑马/14_面向对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/9_继承_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作/3_capvideo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_fuel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonCrawler" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0/get_fuel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10_私有权限" />
+        <item itemvalue="Python.3_capvideo" />
         <item itemvalue="Python.2_imread" />
-        <item itemvalue="Python.1_窗口相关API (1)" />
-        <item itemvalue="Python.10_四有权限" />
-        <item itemvalue="Python.9_继承_3" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.get_fuel" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +244,9 @@
       <workItem from="1661265271057" duration="1654000" />
       <workItem from="1661310237664" duration="1444000" />
       <workItem from="1661320045178" duration="6005000" />
-      <workItem from="1661343217464" duration="104000" />
+      <workItem from="1661343217464" duration="4423000" />
+      <workItem from="1661390079739" duration="653000" />
+      <workItem from="1661407123054" duration="10466000" />
     </task>
     <servers />
   </component>
@@ -307,13 +309,15 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python2021Base$1_.coverage" NAME="1_简介 Coverage Results" MODIFIED="1660047242955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/13_文件" />
     <SUITE FILE_PATH="coverage/Python2021Base$7__1__1_.coverage" NAME="7_继承_1 (1) Coverage Results" MODIFIED="1661157726920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
-    <SUITE FILE_PATH="coverage/Python2021Base$main.coverage" NAME="main Coverage Results" MODIFIED="1661266939206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
+    <SUITE FILE_PATH="coverage/Python2021Base$main.coverage" NAME="main Coverage Results" MODIFIED="1661390707890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
     <SUITE FILE_PATH="coverage/Python2021Base$5__.coverage" NAME="5_综合案例_烤地瓜 Coverage Results" MODIFIED="1660651065247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$1_API__1_.coverage" NAME="1_窗口相关API (1) Coverage Results" MODIFIED="1661324762265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
     <SUITE FILE_PATH="coverage/Python2021Base$9__3.coverage" NAME="9_继承_3 Coverage Results" MODIFIED="1661321052247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$3_.coverage" NAME="3_魔术方法 Coverage Results" MODIFIED="1660395464264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$8__2.coverage" NAME="8_继承_2 Coverage Results" MODIFIED="1661223830641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
+    <SUITE FILE_PATH="coverage/Python2021Base$3_capvideo.coverage" NAME="3_capvideo Coverage Results" MODIFIED="1661424107948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
     <SUITE FILE_PATH="coverage/Python2021Base$zol.coverage" NAME="zol Coverage Results" MODIFIED="1660052703611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/picture/picture/spiders" />
+    <SUITE FILE_PATH="coverage/Python2021Base$login.coverage" NAME="login Coverage Results" MODIFIED="1661344386001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/项目/微博1.0" />
     <SUITE FILE_PATH="coverage/Python2021Base$test.coverage" NAME="test Coverage Results" MODIFIED="1660386204143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/NUC/Desktop" />
     <SUITE FILE_PATH="coverage/Python2021Base$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1660104752522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/picture" />
     <SUITE FILE_PATH="coverage/Python2021Base$6_.coverage" NAME="6_搬家具案例 Coverage Results" MODIFIED="1660655972231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
@@ -321,12 +325,12 @@
     <SUITE FILE_PATH="coverage/Python2021Base$2_re.coverage" NAME="2_re正则表达式 Coverage Results" MODIFIED="1660661307108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/2_数据提取" />
     <SUITE FILE_PATH="coverage/Python2021Base$start.coverage" NAME="start Coverage Results" MODIFIED="1660052640938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/picture/picture" />
     <SUITE FILE_PATH="coverage/Python2021Base$14.coverage" NAME="14面向对象 Coverage Results" MODIFIED="1660307839196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马" />
-    <SUITE FILE_PATH="coverage/Python2021Base$get_fuel.coverage" NAME="get_fuel Coverage Results" MODIFIED="1661082136161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
+    <SUITE FILE_PATH="coverage/Python2021Base$get_fuel.coverage" NAME="get_fuel Coverage Results" MODIFIED="1661346502388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
     <SUITE FILE_PATH="coverage/Python2021Base$4_.coverage" NAME="4_文件备份 Coverage Results" MODIFIED="1660137052304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/13_文件" />
     <SUITE FILE_PATH="coverage/Python2021Base$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1660227209177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/login" />
-    <SUITE FILE_PATH="coverage/Python2021Base$2_imread.coverage" NAME="2_imread Coverage Results" MODIFIED="1661326113750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
+    <SUITE FILE_PATH="coverage/Python2021Base$2_imread.coverage" NAME="2_imread Coverage Results" MODIFIED="1661408524449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
     <SUITE FILE_PATH="coverage/Python2021Base$7_.coverage" NAME="7_继承 Coverage Results" MODIFIED="1661153534645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
-    <SUITE FILE_PATH="coverage/Python2021Base$10_.coverage" NAME="10_四有权限 Coverage Results" MODIFIED="1661323133799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
+    <SUITE FILE_PATH="coverage/Python2021Base$10_.coverage" NAME="10_私有权限 Coverage Results" MODIFIED="1661424936839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1660225922620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/login/login/spiders" />
     <SUITE FILE_PATH="coverage/Python2021Base$5_.coverage" NAME="5_文件和文件夹的操作 Coverage Results" MODIFIED="1660219531672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/13_文件" />
     <SUITE FILE_PATH="coverage/Python2021Base$1.coverage" NAME="1 Coverage Results" MODIFIED="1661241836736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />

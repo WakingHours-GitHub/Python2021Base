@@ -8,7 +8,10 @@
     私有属性和方法访问范围:
         只有本类内可以访问到, 类外均访问不到.
 
-
+获取和修改私有属性值
+    在python中, 一般定义函数名get_xx用来获取私有属性, 定义set_xx来修改私有属性值.
+    私有属性一般只有在类里面才能获取到.
+    get_xx()和set_xx()这是工作习惯, get用于获取, set用于设置.
 
 
 
@@ -30,6 +33,19 @@ class Prentice(object):
         print("秘密配方")
 
 
+    # 操作私有属性
+    # 获取私有属性值
+    def get_money(self):
+        return self.__money
+
+    # 修改私有属性值。
+    def set_money(self, money):
+        self.__money = money
+
+
+
+
+
 
 class Tusun(Prentice):
     pass
@@ -48,7 +64,15 @@ prentice.make_cake()
 tusun = Tusun()
 # print(tusun.money) # AttributeError: 'Tusun' object has no attribute 'money'
 
+# 调用get获取私有属性
+print(tusun.get_money()) # 100
+# 可见获取私有属性成功了。
 
+# 调用set修改私有属性
+tusun.set_money(200)
+
+print(tusun.get_money()) # 200
+# 可见, 已经修改成功了
 
 
 
