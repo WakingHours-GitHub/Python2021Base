@@ -28,8 +28,60 @@
 
 """
 
+
+"""
+需求:　警务和警犬一起工作．　追击敌人和追查敌人
+    携带不同的警犬, 执行不同的工作.
+
+步骤:
+    1. 定义父类: 提供父类方法
+    2. 定义子类: 子类重写父类方法
+    3. 创建对象, 调用不同的功能, 传入
+
+
+
+
+
+"""
+
+# 定义父类: 提供公共方法
+class Dog(object):
+    def work(self):
+        pass
+
+
+# 定义子类, 子类重写父类方法: 定义两个类表示不同的警犬, 那么所作的工作也不同.
+class ArmyDog(Dog):
+    def work(self):
+        print("追击敌人")
+
+class DrugDog(Dog):
+    def work(self):
+        print("追查毒药")
+
+# 定义人类, 用于携带.
 class Person(object):
-    pass
+    def work_with_dog(self, dog: Dog): # 这个dog就是一个父类,
+        # 那么传入子类后, 根据不同子类, 调用子类的work方法, 这样就是他本类所对应的方法
+        dog.work()
+
+# 创建对象, 传入不同的对象, 看结果
+# 创建对象:
+ad = ArmyDog()
+
+dg = DrugDog()
+
+person = Person()
+# 这就是多态:
+# 多态可以使代码更加灵活, 更加丰富.
+person.work_with_dog(ad) # 追击敌人
+person.work_with_dog(dg) # 追查毒药
+
+
+
+
+
+
 
 
 
