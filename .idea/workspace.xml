@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5015a9c-2db5-48e9-a7c3-ed14ac77eab3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/黑马/14_面向对象/11_面向对象特性.py" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/14_面向对象/11_面向对象特性.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,29 +80,7 @@
       <recent name="D:\PyCharm\PythonScrapy\4_爬虫类写法\picture\picture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.13_类方法">
-    <configuration name="10_私有权限" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python2021Base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/黑马/14_面向对象" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/10_私有权限.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.1_简介">
     <configuration name="12_类属性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -140,6 +117,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/14_面向对象/13_类方法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1_简介" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2021Base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/黑马/15_异常" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/黑马/15_异常/1_简介.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1_简介" />
         <item itemvalue="Python.13_类方法" />
         <item itemvalue="Python.12_类属性" />
         <item itemvalue="Python.5_trackbar" />
         <item itemvalue="Python.4_mouse" />
-        <item itemvalue="Python.10_私有权限" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +250,12 @@
       <workItem from="1661608212444" duration="1557000" />
       <workItem from="1661913162592" duration="1471000" />
       <workItem from="1661929608700" duration="1481000" />
-      <workItem from="1661931264295" duration="3739000" />
+      <workItem from="1661931264295" duration="3742000" />
+      <workItem from="1661942146323" duration="14000" />
+      <workItem from="1662012551228" duration="363000" />
+      <workItem from="1662015545825" duration="7415000" />
+      <workItem from="1662029730216" duration="594000" />
+      <workItem from="1662077973717" duration="637000" />
     </task>
     <servers />
   </component>
@@ -312,8 +316,8 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python2021Base$1_.coverage" NAME="1_简介 Coverage Results" MODIFIED="1660047242955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/13_文件" />
     <SUITE FILE_PATH="coverage/Python2021Base$7__1__1_.coverage" NAME="7_继承_1 (1) Coverage Results" MODIFIED="1661157726920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
+    <SUITE FILE_PATH="coverage/Python2021Base$1_.coverage" NAME="1_简介 Coverage Results" MODIFIED="1662022676929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/15_异常" />
     <SUITE FILE_PATH="coverage/Python2021Base$main.coverage" NAME="main Coverage Results" MODIFIED="1661390707890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
     <SUITE FILE_PATH="coverage/Python2021Base$12_.coverage" NAME="12_多态 Coverage Results" MODIFIED="1661932682995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$5__.coverage" NAME="5_综合案例_烤地瓜 Coverage Results" MODIFIED="1660651065247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
