@@ -48,6 +48,8 @@
     异常当中的finally:
         finally代码块: 表示无论是否出现异常, 最终(最后)都要执行的代码.
         例如关闭文件流, 释放资源等操作上.
+        因为无论代码是否出现问题, 最终都需要释放资源或者关闭文件流.
+
 
 
 """
@@ -107,5 +109,15 @@ else:
     print("没有发生错误")
 
 
+# 异常的finally测试:
+# 尝试: 以r打开文件, 如果发生异常, 则以w打开文件, 最终关闭文件
+
+try:
+    f = open("file.txt", 'r')
+except Exception as error:
+    f = open("file.txt", 'w')
+finally:
+    # 无论是否异常, 最终都要执行finally中的代码.
+    f.close()
 
 
