@@ -1,8 +1,21 @@
+# 定义多个功能, 然后将功能添加到all列表中去.
+# all列表. 当from xxx import *时, 只能导入__all__列表中的元素.
+__all__ = ["test_a"]
+# all列表就是一个变量, 只不过类型是列表类型的.
 
 
 # 定义模块这种方式.
 def add(a, b):
     return a + b
+
+
+# 测试函数:
+def test_a() -> None:
+    print("test_a")
+
+
+def test_b() -> None:
+    print("test_b")
 
 
 # 测试模块, 是否能够完成我们的需求.
@@ -15,12 +28,11 @@ def add(a, b):
 # 只在当前文件中调用函数, 其他导入的文件内不符合该条件.
 # __name__是系统变量, 是文件, 是模块的标识符.
 # 如果__name__是自身模块当中, 那么他的值就是__main__, 否则是当前模块的名字.
-print(__name__) # __main__
+print(__name__)  # __main__
 # 因此, 我们可以通过__name__进行判读, 从而实现只在本文件执行的代码.
-if __name__ == '__main__': # 只有名字 == '__main__'也就是本文件, 才执行.
+if __name__ == '__main__':  # 只有名字 == '__main__'也就是本文件, 才执行.
     print(add(2, 2))
 
 # 同理, 你也可以设置当别人导入该模块的时候, 需要调用的函数
 if __name__ == 'module1':
     print("导入module1模块")
-
