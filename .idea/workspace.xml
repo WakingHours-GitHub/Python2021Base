@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5015a9c-2db5-48e9-a7c3-ed14ac77eab3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作/24_morphOpeartion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作/24_morphOpeartion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/黑马/17综合系统/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/17综合系统/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/黑马/17综合系统/mangerSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/黑马/17综合系统/mangerSystem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/misc.xml" afterDir="false" />
@@ -91,7 +92,7 @@
       <recent name="D:\PyCharm\PythonScrapy\4_爬虫类写法\picture\picture" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.mangerSystem">
     <configuration name="23_morphology" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ComputerVision" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,8 +205,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.mangerSystem" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.student" />
         <item itemvalue="Python.23_morphology" />
         <item itemvalue="Python.5_包相关" />
@@ -281,6 +282,9 @@
       <workItem from="1662811618035" duration="2945000" />
       <workItem from="1662856923399" duration="3050000" />
       <workItem from="1662879319904" duration="8209000" />
+      <workItem from="1662903271835" duration="2027000" />
+      <workItem from="1662941496171" duration="4146000" />
+      <workItem from="1662964979031" duration="5047000" />
     </task>
     <servers />
   </component>
@@ -346,7 +350,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python2021Base$mangerSystem.coverage" NAME="mangerSystem Coverage Results" MODIFIED="1662893937036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/17综合系统" />
+    <SUITE FILE_PATH="coverage/Python2021Base$mangerSystem.coverage" NAME="mangerSystem Coverage Results" MODIFIED="1662969515894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/17综合系统" />
     <SUITE FILE_PATH="coverage/Python2021Base$7__1__1_.coverage" NAME="7_继承_1 (1) Coverage Results" MODIFIED="1661157726920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$1_.coverage" NAME="1_简介 Coverage Results" MODIFIED="1662103847118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/15_异常" />
     <SUITE FILE_PATH="coverage/Python2021Base$main.coverage" NAME="main Coverage Results" MODIFIED="1662894563695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/17综合系统" />
