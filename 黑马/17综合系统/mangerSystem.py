@@ -65,6 +65,39 @@ class StudentManager(object):
                 break
 
     def load_student(self):
+        """
+        load data from 'student.data' file,
+        and we should be operate data that in file,
+        so, we have to load data
+        step:
+            1. try read file, if file not exist, then we use 'w' mode to open file.
+            2. if file exist, then load data and save data
+                a. load data
+                b. transition data type: from list.dict to Student object
+                c. save student data to list
+            3. close file
+        """
+        try:
+            f = open("./student.data", 'r')
+        except: # file not exist
+            f = open("./student.data", 'w')
+
+        else: # file already exist
+            # data type: [{}, {}, {}] in list, thus we use 'eval()' function,
+            # to execute, then from this type to List[dict] type
+            data = f.read()
+            student_dict_list = eval(data)
+            # create object and input self.student_list
+            self.student_list = [Student(student['name'], student['gender'], student['tel']) for student in student_dict_list]
+
+        finally:
+            # 3. 关闭文件
+            f.close()
+
+
+
+
+
         pass
 
     # 1. show menu
@@ -156,15 +189,50 @@ class StudentManager(object):
                 print(f"name is \'{name}\' not exist, please input again")
 
     def inquire_student(self):
+        """research student information"""
         print("inquire student information")
+        while True:
+            name = input("please input name that inquire student's name(input 'q' to exit): ").strip()
+            if name == 'q':
+                break
+            for student in self.student_list:
+                if name == student.name:
+                    print(student)  # output student information
+                    break
+            else:  # student not exist
+                print(f"no \'{name}\' student")
 
     def show_all_student(self):
         print("show all student information")
+        print("name\t gender\t  tel: ")
+
         for student in self.student_list:
-            print(student)
+            print(student)  # we definite __str__ magic method
 
     def save_student(self):
+        """
+        save student information
+        file operation.
+
+        """
         print("save student information")
+        # open file pointer.
+        f = open("./student.data", "w")
+
+        # file input file
+        # 2.1 student information in list input to file.
+        # 2.2 input data that str type to file
+        student_dict_list = [student.__dict__ for student in self.student_list]
+        # print(student_dict_list) # [{'name': '1', 'gender': '1', 'tel': '1'}] #
+        # evey element is dict that present student information in list.
+
+        # write in file
+        f.write(str(student_dict_list))
+
+
+        f.close()
+
+
 
 
 if __name__ == '__main__':
