@@ -80,7 +80,7 @@ def main():
     print(s2.student_count) # 4
     # 类和对象都共享这个变量.
 
-    pprint(Student.__dict__ ) # {'__module__': '__main__', 'student_count': 100, '__dict__': <attribute '__dict__' of 'Student' objects>, '__weakref__': <attribute '__weakref__' of 'Student' objects>, '__doc__': None, 'unknow': 'test'}
+    pprint(Student.__dict__) # {'__module__': '__main__', 'student_count': 100, '__dict__': <attribute '__dict__' of 'Student' objects>, '__weakref__': <attribute '__weakref__' of 'Student' objects>, '__doc__': None, 'unknow': 'test'}
     """ # 使用pprint: 
     mappingproxy({'__dict__': <attribute '__dict__' of 'Student' objects>,
               '__doc__': None,
