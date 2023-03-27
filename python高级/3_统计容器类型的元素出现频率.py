@@ -10,7 +10,7 @@ def instance_0() -> None:
     list_data = [randint(0, 20) for _ in range(20)]
     print(list_data)
     # {字符: 出现次数, ... }使用这样一种数据结构去实现.
-    dict_data = dict.fromkeys(list_data, 0) # 就是从一个可迭代结构生成字典, 每个key对应的value都是0
+    dict_data = dict.fromkeys(list_data, 0)  # 就是从一个可迭代结构生成字典, 每个key对应的value都是0
     # 这里的key也是没有重复的. 字典中的key是不允许重复的.
     print(dict_data)
 
@@ -28,11 +28,10 @@ def instance_1():
     from collections import Counter
     list_data = [randint(0, 20) for _ in range(20)]
     counter_obj = Counter(list_data)
-    print(counter_obj) # Counter对象也是一个字典.
+    print(counter_obj)  # Counter对象也是一个字典.
 
-    print(counter_obj.most_common(3)) # 这就代表出现频次最高的前三位.
+    print(counter_obj.most_common(3))  # 这就代表出现频次最高的前三位.
     # 与上述方法一样.
-
 
 
 # 现在是统计英文文章的词, 或者字符.
@@ -41,7 +40,7 @@ def instance_1():
 def instance_2() -> None:
     # import this
     from collections import Counter
-    import re # 正则表达式
+    import re  # 正则表达式
     python_doc = """The Zen of Python, by Tim Peters
 
 Beautiful is better than ugly.
@@ -66,16 +65,10 @@ Namespaces are one honking great idea -- let's do more of those!"""
     counter_obj = Counter(re.split('\W+', python_doc))
     # 按照非字符串(最长)的格式的进行分割.
     print(counter_obj)
-    print(counter_obj.most_common(10)) # 拿到词频最大的10个单词.
-
-
+    print(counter_obj.most_common(10))  # 拿到词频最大的10个单词.
 
 
 if __name__ == '__main__':
     # instance_0()
     instance_1()
     instance_2()
-
-
-
-
