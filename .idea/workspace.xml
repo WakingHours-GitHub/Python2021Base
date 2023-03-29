@@ -5,8 +5,6 @@
       <change afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/1_基础操作/24_morphOpeartion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/1_基础操作/24_morphOpeartion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python高级/1_容器中筛选数据.py" beforeDir="false" afterPath="$PROJECT_DIR$/python高级/1_容器中筛选数据.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python高级/3_统计容器类型的元素出现频率.py" beforeDir="false" afterPath="$PROJECT_DIR$/python高级/3_统计容器类型的元素出现频率.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/misc.xml" afterDir="false" />
@@ -96,29 +94,7 @@
       <recent name="D:\PyCharm\ComputerVision\OpenCV实战\基础操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.5_快速找到多个字典中的公共键">
-    <configuration name="1_容器中筛选数据" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python2021Base" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python高级" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/1_容器中筛选数据.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.6_让字典保持有序">
     <configuration name="2_为元组中的每个元素命名提高程序可读性" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -207,13 +183,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="6_让字典保持有序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python2021Base" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python高级" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/6_让字典保持有序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.6_让字典保持有序" />
         <item itemvalue="Python.5_快速找到多个字典中的公共键" />
         <item itemvalue="Python.4_根据字典中的value进行排序" />
         <item itemvalue="Python.3_统计容器类型的元素出现频率" />
         <item itemvalue="Python.2_为元组中的每个元素命名提高程序可读性" />
-        <item itemvalue="Python.1_容器中筛选数据" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +308,11 @@
       <workItem from="1672298348397" duration="725000" />
       <workItem from="1672403651804" duration="16000" />
       <workItem from="1679712861497" duration="6498000" />
-      <workItem from="1679883659509" duration="7181000" />
+      <workItem from="1679883659509" duration="7227000" />
+      <workItem from="1679910609237" duration="690000" />
+      <workItem from="1679971921739" duration="1909000" />
+      <workItem from="1679986682621" duration="2170000" />
+      <workItem from="1680011857435" duration="150000" />
     </task>
     <servers />
   </component>
@@ -419,7 +421,7 @@
     <SUITE FILE_PATH="coverage/Python2021Base$4_value.coverage" NAME="4_根据字典中的value进行排序 Coverage Results" MODIFIED="1679898688264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$1_python.coverage" NAME="1_初始python面向对象 Coverage Results" MODIFIED="1670588836974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python面向对象" />
     <SUITE FILE_PATH="coverage/Python2021Base$5_ORB.coverage" NAME="5_ORB Coverage Results" MODIFIED="1663215398600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/3_图像拼接" />
-    <SUITE FILE_PATH="coverage/Python2021Base$6_.coverage" NAME="6_常用的特殊方法 Coverage Results" MODIFIED="1671019428037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python面向对象/chapter1_认识类" />
+    <SUITE FILE_PATH="coverage/Python2021Base$6_.coverage" NAME="6_让字典保持有序 Coverage Results" MODIFIED="1679987354672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$7_property.coverage" NAME="7_property类 Coverage Results" MODIFIED="1671104903404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python面向对象/chapter1_认识类" />
     <SUITE FILE_PATH="coverage/Python2021Base$__dict__.coverage" NAME="拓展__dict__ Coverage Results" MODIFIED="1663140862933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/17综合系统" />
     <SUITE FILE_PATH="coverage/Python2021Base$2_.coverage" NAME="2_为元组中的每个元素命名提高程序可读性 Coverage Results" MODIFIED="1679726084648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
@@ -431,7 +433,7 @@
     <SUITE FILE_PATH="coverage/Python2021Base$log1.coverage" NAME="log1 Coverage Results" MODIFIED="1660225922620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/login/login/spiders" />
     <SUITE FILE_PATH="coverage/Python2021Base$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1663041199518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/车辆检测" />
     <SUITE FILE_PATH="coverage/Python2021Base$4_mouse.coverage" NAME="4_mouse Coverage Results" MODIFIED="1661500645089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
-    <SUITE FILE_PATH="coverage/Python2021Base$5_.coverage" NAME="5_快速找到多个字典中的公共键 Coverage Results" MODIFIED="1679900568531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
+    <SUITE FILE_PATH="coverage/Python2021Base$5_.coverage" NAME="5_快速找到多个字典中的公共键 Coverage Results" MODIFIED="1679986903654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$1.coverage" NAME="1 Coverage Results" MODIFIED="1661241836736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
   </component>
 </project>
