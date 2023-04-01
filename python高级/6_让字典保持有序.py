@@ -4,7 +4,7 @@
 # 可以作为拓展内容.
 
 # 使用OrderedDict, 这个orderedDict在很多框架中都有实现.
-
+import random
 from random import randint
 from time import time
 from collections import OrderedDict
@@ -25,8 +25,14 @@ def instance_0() -> None:
 
     for i in range(len(player)):
         # 模拟同学的答题过程
-        input("随便输入, 以模拟答题过程: ")
+        input("随便输入, 以模拟答题过程: ") # 会阻塞当前线程
+        t_end = time()
+        random_index = random.randint(0, player_max_index - i)
+        dict_data[player[random_index]] = t_end - t_start
+        player.pop(random_index)
 
+
+    print(dict_data) # 就是根据顺序来的。但是如果是python2中的dict则随机顺序。
 
 
 
