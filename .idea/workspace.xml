@@ -5,7 +5,7 @@
       <change afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/1_基础操作/24_morphOpeartion.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ComputerVision/OpenCV实战/1_基础操作/24_morphOpeartion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python高级/9_使用生成器函数实现可迭代对象.py" beforeDir="false" afterPath="$PROJECT_DIR$/python高级/9_使用生成器函数实现可迭代对象.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python高级/11_完成对迭代器的切片操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/python高级/11_完成对迭代器的切片操作.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/PythonScrapy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../PythonScrapy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonScrapy/.idea/misc.xml" afterDir="false" />
@@ -95,7 +95,7 @@
       <recent name="D:\PyCharm\ComputerVision\OpenCV实战\基础操作" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.10_反向迭代与实现">
+  <component name="RunManager" selected="Python.13_拆分含有多种分隔符的字符串">
     <configuration name="10_反向迭代与实现" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6_让字典保持有序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="11_完成对迭代器的切片操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,7 +131,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/6_让字典保持有序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/11_完成对迭代器的切片操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7_实现用户的历史记录功能" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12_在for循环中迭代多个可迭代对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +153,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/7_实现用户的历史记录功能.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/12_在for循环中迭代多个可迭代对象.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8_实现可迭代对象与迭代器对象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13_拆分含有多种分隔符的字符串" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python2021Base" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +175,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/8_实现可迭代对象与迭代器对象.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级/13_拆分含有多种分隔符的字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.13_拆分含有多种分隔符的字符串" />
+        <item itemvalue="Python.12_在for循环中迭代多个可迭代对象" />
+        <item itemvalue="Python.11_完成对迭代器的切片操作" />
         <item itemvalue="Python.10_反向迭代与实现" />
         <item itemvalue="Python.9_使用生成器函数实现可迭代对象" />
-        <item itemvalue="Python.8_实现可迭代对象与迭代器对象" />
-        <item itemvalue="Python.7_实现用户的历史记录功能" />
-        <item itemvalue="Python.6_让字典保持有序" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +317,9 @@
       <workItem from="1680057078307" duration="1128000" />
       <workItem from="1680227305072" duration="6798000" />
       <workItem from="1680311346279" duration="3765000" />
+      <workItem from="1680418582552" duration="2367000" />
+      <workItem from="1680421001537" duration="196000" />
+      <workItem from="1680487496025" duration="3283000" />
     </task>
     <servers />
   </component>
@@ -405,6 +408,7 @@
     <SUITE FILE_PATH="coverage/Python2021Base$get_fuel.coverage" NAME="get_fuel Coverage Results" MODIFIED="1661346502388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../pythonCrawler/其他/油价2.0" />
     <SUITE FILE_PATH="coverage/Python2021Base$9_property.coverage" NAME="9_删除property Coverage Results" MODIFIED="1671107094215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python面向对象/chapter1_认识类" />
     <SUITE FILE_PATH="coverage/Python2021Base$4_.coverage" NAME="4_私有属性与函数 Coverage Results" MODIFIED="1670848971594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python面向对象/chapter1_认识类" />
+    <SUITE FILE_PATH="coverage/Python2021Base$11_.coverage" NAME="11_完成对迭代器的切片操作 Coverage Results" MODIFIED="1680419684939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1660227209177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/4_爬虫类写法/login" />
     <SUITE FILE_PATH="coverage/Python2021Base$24_morphOpeartion.coverage" NAME="24_morphOpeartion Coverage Results" MODIFIED="1662977379402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
     <SUITE FILE_PATH="coverage/Python2021Base$module1.coverage" NAME="module1 Coverage Results" MODIFIED="1662603426489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/16_模块和包" />
@@ -432,7 +436,7 @@
     <SUITE FILE_PATH="coverage/Python2021Base$2_.coverage" NAME="2_为元组中的每个元素命名提高程序可读性 Coverage Results" MODIFIED="1679726084648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$2_re.coverage" NAME="2_re正则表达式 Coverage Results" MODIFIED="1660661307108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../PythonScrapy/2_数据提取" />
     <SUITE FILE_PATH="coverage/Python2021Base$4_all.coverage" NAME="4_all列表 Coverage Results" MODIFIED="1662603235246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/16_模块和包" />
-    <SUITE FILE_PATH="coverage/Python2021Base$13_.coverage" NAME="13_类方法 Coverage Results" MODIFIED="1661934517714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/黑马/14_面向对象" />
+    <SUITE FILE_PATH="coverage/Python2021Base$13_.coverage" NAME="13_拆分含有多种分隔符的字符串 Coverage Results" MODIFIED="1680495006028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$9_.coverage" NAME="9_使用生成器函数实现可迭代对象 Coverage Results" MODIFIED="1680313407255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$2_imread.coverage" NAME="2_imread Coverage Results" MODIFIED="1661408524449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
     <SUITE FILE_PATH="coverage/Python2021Base$10_.coverage" NAME="10_反向迭代与实现 Coverage Results" MODIFIED="1680314352856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
@@ -441,5 +445,6 @@
     <SUITE FILE_PATH="coverage/Python2021Base$4_mouse.coverage" NAME="4_mouse Coverage Results" MODIFIED="1661500645089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
     <SUITE FILE_PATH="coverage/Python2021Base$5_.coverage" NAME="5_快速找到多个字典中的公共键 Coverage Results" MODIFIED="1679986903654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
     <SUITE FILE_PATH="coverage/Python2021Base$1.coverage" NAME="1 Coverage Results" MODIFIED="1661241836736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ComputerVision/OpenCV实战/基础操作" />
+    <SUITE FILE_PATH="coverage/Python2021Base$12_for.coverage" NAME="12_在for循环中迭代多个可迭代对象 Coverage Results" MODIFIED="1680488837864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级" />
   </component>
 </project>
