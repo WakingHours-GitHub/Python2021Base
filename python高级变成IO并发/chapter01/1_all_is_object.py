@@ -12,3 +12,16 @@ my_func = ask
 
 
 ask("离谱")
+
+print(type(Person)) # <class 'type'>
+print(Person.__bases__) # (<class 'object'>,)
+
+
+# 同理：
+l = ['a']
+print(type(l)) # <class 'list'>
+print(type(list)) # <class 'type'>
+print(type(type)) # <class 'type'>
+
+
+
