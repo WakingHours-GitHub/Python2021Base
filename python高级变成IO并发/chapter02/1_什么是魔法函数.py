@@ -6,7 +6,7 @@ from typing import List
 # 通过这些方法, 可以影响我们的对象, 以及python的内置函数. 例如len()
 # len()首先会调用__len__()方法, 如果没有则尝试getitem()方法. 这个len方法并不简单.
 # str()方法,就会调用__str__().
-# 开发模式: 调用__repr__模式. 在notebook中输出的时候.
+# 开发模式: 调用__repr__模式. 例如在notebook中输出的时候.
 
 """
 魔法函数分为两类: 一种是非数学运算另一种是数学运算.
@@ -20,7 +20,7 @@ class Company(object):
 
     # 魔法函数: 以__开头和结尾. 这些就是魔法函数,
     # 通过这些个魔法函数, 可以定制这些类的特性.
-    def __getitem__(self, item):  # 就是直接索引对象。返回相应结果。
+    def __getitem__(self, item):  # 就是直接索引对象。返回相应结果。变成了一个可迭代对象。
         return self.employee[item]
 
     # def __iter__(self): # 迭代器, 需要实现这个方法.
